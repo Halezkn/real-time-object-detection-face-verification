@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+
+# Model weights downloaded at setup time
+models/
+*.pt
+*.caffemodel
+
+# Private reference images
+owner.jpg
+reference.jpg
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
