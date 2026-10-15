@@ -102,3 +102,8 @@ The left panel displays YOLOv8 detections and face-verification labels. The righ
 - [Ultralytics YOLO](https://github.com/ultralytics/ultralytics)
 - [MobileNet SSD Caffe implementation](https://github.com/chuanqi305/MobileNet-SSD)
 - [DeepFace](https://github.com/serengil/deepface)
+
+## Limitations
+
+- Face verification was generally consistent during local testing, although occasional short-lived mismatches were observed under less favorable viewing conditions.
+- The MobileNet SSD pipeline uses the Caffe model format and requires OpenCV 4.x. The project pins `opencv-python==4.10.0.84` because Caffe model loading is no longer available in OpenCV 5.
